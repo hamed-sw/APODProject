@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		FA00B01A26F31DF7004B26C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B01926F31DF7004B26C6 /* AppDelegate.swift */; };
 		FA00B01C26F31DF7004B26C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B01B26F31DF7004B26C6 /* SceneDelegate.swift */; };
-		FA00B01E26F31DF7004B26C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B01D26F31DF7004B26C6 /* ViewController.swift */; };
 		FA00B02126F31DF7004B26C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA00B01F26F31DF7004B26C6 /* Main.storyboard */; };
 		FA00B02326F31DFE004B26C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA00B02226F31DFE004B26C6 /* Assets.xcassets */; };
 		FA00B02626F31DFE004B26C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA00B02426F31DFE004B26C6 /* LaunchScreen.storyboard */; };
+		FA00B03426F31ECC004B26C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B03326F31ECC004B26C6 /* Model.swift */; };
+		FA00B03826F31EFD004B26C6 /* JsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B03726F31EFD004B26C6 /* JsonParsing.swift */; };
+		FA00B03A26F3238C004B26C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B03926F3238C004B26C6 /* Constants.swift */; };
+		FA00B03C26F32949004B26C6 /* ApodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B03B26F32949004B26C6 /* ApodViewController.swift */; };
+		FA00B03E26F3295F004B26C6 /* ApodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B03D26F3295F004B26C6 /* ApodDetailViewController.swift */; };
+		FA00B04426F32C09004B26C6 /* ApodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04226F32C09004B26C6 /* ApodTableViewCell.swift */; };
+		FA00B04526F32C09004B26C6 /* ApodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA00B04326F32C09004B26C6 /* ApodTableViewCell.xib */; };
+		FA00B04726F32F83004B26C6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04626F32F83004B26C6 /* ViewModel.swift */; };
+		FA00B04926F33361004B26C6 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04826F33361004B26C6 /* Elements.swift */; };
+		FA00B04B26F335B6004B26C6 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04A26F335B6004B26C6 /* Download.swift */; };
+		FA00B04D26F35043004B26C6 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04C26F35043004B26C6 /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA00B01626F31DF7004B26C6 /* APODProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APODProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA00B01926F31DF7004B26C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA00B01B26F31DF7004B26C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA00B01D26F31DF7004B26C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA00B02026F31DF7004B26C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA00B02226F31DFE004B26C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA00B02526F31DFE004B26C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA00B02726F31DFE004B26C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA00B03326F31ECC004B26C6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA00B03726F31EFD004B26C6 /* JsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsing.swift; sourceTree = "<group>"; };
+		FA00B03926F3238C004B26C6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA00B03B26F32949004B26C6 /* ApodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodViewController.swift; sourceTree = "<group>"; };
+		FA00B03D26F3295F004B26C6 /* ApodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodDetailViewController.swift; sourceTree = "<group>"; };
+		FA00B04226F32C09004B26C6 /* ApodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodTableViewCell.swift; sourceTree = "<group>"; };
+		FA00B04326F32C09004B26C6 /* ApodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApodTableViewCell.xib; sourceTree = "<group>"; };
+		FA00B04626F32F83004B26C6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FA00B04826F33361004B26C6 /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
+		FA00B04A26F335B6004B26C6 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		FA00B04C26F35043004B26C6 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,79 @@
 			children = (
 				FA00B01926F31DF7004B26C6 /* AppDelegate.swift */,
 				FA00B01B26F31DF7004B26C6 /* SceneDelegate.swift */,
-				FA00B01D26F31DF7004B26C6 /* ViewController.swift */,
-				FA00B01F26F31DF7004B26C6 /* Main.storyboard */,
+				FA00B03026F31E24004B26C6 /* Model */,
+				FA00B02F26F31E21004B26C6 /* View */,
+				FA00B02E26F31E1D004B26C6 /* ViewController */,
+				FA00B02D26F31E19004B26C6 /* ViewModel */,
+				FA00B03126F31E5F004B26C6 /* Worker */,
+				FA00B03226F31E6D004B26C6 /* Helper */,
 				FA00B02226F31DFE004B26C6 /* Assets.xcassets */,
 				FA00B02426F31DFE004B26C6 /* LaunchScreen.storyboard */,
 				FA00B02726F31DFE004B26C6 /* Info.plist */,
 			);
 			path = APODProject;
+			sourceTree = "<group>";
+		};
+		FA00B02D26F31E19004B26C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B04626F32F83004B26C6 /* ViewModel.swift */,
+				FA00B04826F33361004B26C6 /* Elements.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA00B02E26F31E1D004B26C6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B03B26F32949004B26C6 /* ApodViewController.swift */,
+				FA00B03D26F3295F004B26C6 /* ApodDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FA00B02F26F31E21004B26C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B03F26F32B7A004B26C6 /* Cell */,
+				FA00B01F26F31DF7004B26C6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA00B03026F31E24004B26C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B03326F31ECC004B26C6 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA00B03126F31E5F004B26C6 /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B03726F31EFD004B26C6 /* JsonParsing.swift */,
+				FA00B04A26F335B6004B26C6 /* Download.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		FA00B03226F31E6D004B26C6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B03926F3238C004B26C6 /* Constants.swift */,
+				FA00B04C26F35043004B26C6 /* Database.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FA00B03F26F32B7A004B26C6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA00B04226F32C09004B26C6 /* ApodTableViewCell.swift */,
+				FA00B04326F32C09004B26C6 /* ApodTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA00B02626F31DFE004B26C6 /* LaunchScreen.storyboard in Resources */,
+				FA00B04526F32C09004B26C6 /* ApodTableViewCell.xib in Resources */,
 				FA00B02326F31DFE004B26C6 /* Assets.xcassets in Resources */,
 				FA00B02126F31DF7004B26C6 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +224,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA00B01E26F31DF7004B26C6 /* ViewController.swift in Sources */,
+				FA00B03826F31EFD004B26C6 /* JsonParsing.swift in Sources */,
+				FA00B04726F32F83004B26C6 /* ViewModel.swift in Sources */,
+				FA00B04B26F335B6004B26C6 /* Download.swift in Sources */,
 				FA00B01A26F31DF7004B26C6 /* AppDelegate.swift in Sources */,
+				FA00B03A26F3238C004B26C6 /* Constants.swift in Sources */,
+				FA00B04926F33361004B26C6 /* Elements.swift in Sources */,
+				FA00B04D26F35043004B26C6 /* Database.swift in Sources */,
+				FA00B03E26F3295F004B26C6 /* ApodDetailViewController.swift in Sources */,
 				FA00B01C26F31DF7004B26C6 /* SceneDelegate.swift in Sources */,
+				FA00B03C26F32949004B26C6 /* ApodViewController.swift in Sources */,
+				FA00B04426F32C09004B26C6 /* ApodTableViewCell.swift in Sources */,
+				FA00B03426F31ECC004B26C6 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
