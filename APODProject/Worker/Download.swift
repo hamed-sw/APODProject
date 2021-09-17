@@ -15,7 +15,7 @@ class DownloadImage {
     static func imageDowloag(string: String, complition: @escaping (Data)->()) {
         guard let url = URL(string: string) else {return}
         if let imagedata = images.object(forKey: url.absoluteString as NSString) {
-            print("using cached images")
+           // print("using cached images")
             complition(imagedata as Data)
             return
         }

@@ -18,7 +18,6 @@ class ApodViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //viewModel.dad()
         tableView.delegate = self
         tableView.dataSource = self
         viewModel.tableView = self.tableView
@@ -39,14 +38,8 @@ extension ApodViewController: UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.ApodTableViewCell, for: indexPath) as? ApodTableViewCell else { fatalError()}
-        //let picbb = viewModel.apodArry[indexPath.row]
         let thne = viewModel.arry[indexPath.row]
         cell.config(viewModel: thne)
-        print(viewModel.arry.count)
-        
-        
-            
-
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
