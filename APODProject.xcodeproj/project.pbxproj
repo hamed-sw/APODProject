@@ -23,6 +23,7 @@
 		FA00B04926F33361004B26C6 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04826F33361004B26C6 /* Elements.swift */; };
 		FA00B04B26F335B6004B26C6 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04A26F335B6004B26C6 /* Download.swift */; };
 		FA00B04D26F35043004B26C6 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00B04C26F35043004B26C6 /* Database.swift */; };
+		FA09D8A726F5D843008396BF /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA09D8A626F5D843008396BF /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FA00B04826F33361004B26C6 /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
 		FA00B04A26F335B6004B26C6 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		FA00B04C26F35043004B26C6 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		FA09D8A626F5D843008396BF /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FA00B04626F32F83004B26C6 /* ViewModel.swift */,
 				FA00B04826F33361004B26C6 /* Elements.swift */,
+				FA09D8A626F5D843008396BF /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				FA00B04D26F35043004B26C6 /* Database.swift in Sources */,
 				FA00B03E26F3295F004B26C6 /* ApodDetailViewController.swift in Sources */,
 				FA00B01C26F31DF7004B26C6 /* SceneDelegate.swift in Sources */,
+				FA09D8A726F5D843008396BF /* DetailViewModel.swift in Sources */,
 				FA00B03C26F32949004B26C6 /* ApodViewController.swift in Sources */,
 				FA00B04426F32C09004B26C6 /* ApodTableViewCell.swift in Sources */,
 				FA00B03426F31ECC004B26C6 /* Model.swift in Sources */,

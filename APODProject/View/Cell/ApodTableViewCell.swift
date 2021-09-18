@@ -11,6 +11,7 @@ class ApodTableViewCell: UITableViewCell {
 
     @IBOutlet weak var mediatypelabel: UILabel!
     @IBOutlet weak var apodImage: UIImageView!
+    lazy var viewModel = ViewModel()
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -21,14 +22,18 @@ class ApodTableViewCell: UITableViewCell {
 
     }
     
-    func config(viewModel:Elementtt){
-        DownloadImage.imageDowloag(string: viewModel.url) {[weak self] data in
-            let img = UIImage(data: data)
-            DispatchQueue.main.async {
-                self?.apodImage.image = img
-            }
-            
-        }
+//    func config(viewModel:Elementtt){
+//        DownloadImage.imageDowloag(string: viewModel.url) {[weak self] data in
+//            let img = UIImage(data: data)
+//            DispatchQueue.main.async {
+//                self?.apodImage.image = img
+//            }
+//            
+//        }
+//    }
+    
+    func cc( viewd:Elementtt) {
+        viewModel.downloadImage(string: viewd.url, image: self)
     }
     
 }

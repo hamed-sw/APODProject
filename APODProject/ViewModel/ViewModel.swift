@@ -11,6 +11,7 @@ class ViewModel {
     var apodArry = [Elements]()
     var tableView = UITableView()
     var arry = [Elementtt]()
+    
     func apiCall() {
         JsonParsing.apiCall { [weak self] data in
             switch data {
@@ -27,6 +28,15 @@ class ViewModel {
                 print(erro)
             }
             
+        }
+    }
+    
+    func downloadImage(string:String, image: ApodTableViewCell) {
+        DownloadImage.imageDowloag(string: string) { data in
+            guard let theImage = UIImage(data: data) else {return}
+            DispatchQueue.main.async {
+                image.apodImage.image = theImage
+            }
         }
     }
   
