@@ -38,8 +38,9 @@ extension ApodViewController: UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.ApodTableViewCell, for: indexPath) as? ApodTableViewCell else { fatalError()}
-        let thne = viewModel.arry[indexPath.row]
-        cell.config(viewModel: thne)
+        let thePicture = viewModel.arry[indexPath.row]
+    //    cell.config(viewModel: thne)
+        cell.cc( viewd: thePicture)
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -50,7 +51,8 @@ extension ApodViewController: UITableViewDelegate,UITableViewDataSource {
         if  let detail: ApodDetailViewController = self.storyboard?.instantiateViewController(identifier: Constants.ApodDetailViewController) as? ApodDetailViewController {
             let newdata = viewModel.arry[indexPath.row]
             print(newdata.date)
-            detail.details(viewModel: newdata)
+            //detail.details(viewModel: newdata)
+            detail.configer(fromViewModel: newdata)
             self.navigationController?.pushViewController(detail, animated: true)
 
         }
